@@ -50,4 +50,4 @@ Record a timeline and check the FPS values on the graph
 index.html achieves a PageSpeed score of at least 90 for Mobile and Desktop
 Pizza.html should be rendered with a consistent frame-rate at 60fps when scrolling.
 Time to resize pizzas is less than 5 ms
------------------------------------------------
+
