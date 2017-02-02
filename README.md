@@ -4,21 +4,21 @@ Project to optimize website based on frame rate and google pagespeed insights sc
 
 ###Optimize PageSpeed Insights
 
-Minify CSS and JS files
-Optimize size and compression of images
-Eliminate render-blocking JavaScript and CSS in index.html
-style.css is inlined in index.html. and print.css now have media=print tag.
-Put the Google Analytics script to the footer of the page.
+- Minify CSS and JS files
+- Optimize size and compression of images
+- Eliminate render-blocking JavaScript and CSS in index.html
+- style.css is inlined in index.html. and print.css now have media=print tag.
+- Put the Google Analytics script to the footer of the page.
 
 
 ###Optimize Frame Rate
-changes in views/js/main.js:
-Put 'use strict'  mode for the whole script syntax to make the code more secure.
-Selectors querySelector and querySelectorAll replaced with getElementById and getElementsByClassName,it's faster.
-Optimize the loops
-Create all the variables outside of loops where possible.
-Declaring the variable in the initialisation of the for-loops as prevention from being created every time the loop is executed.
-Dynamically calculate the number of pizzas needed to fill the screen, based on browser window resolution
+- changes in views/js/main.js:
+- Put 'use strict'  mode for the whole script syntax to make the code more secure.
+- Selectors querySelector and querySelectorAll replaced with getElementById and getElementsByClassName,it's faster.
+- Optimize the loops
+- Create all the variables outside of loops where possible.
+- Declaring the variable in the initialisation of the for-loops as prevention from being created every time the loop is executed.
+- Dynamically calculate the number of pizzas needed to fill the screen, based on browser window resolution
 
 
 ###How to use and test the app and performance
