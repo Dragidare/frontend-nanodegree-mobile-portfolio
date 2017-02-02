@@ -1,5 +1,4 @@
 ## Website Performance Optimization portfolio project
------------------------------------------------
 
 Project to optimize website based on frame rate and google pagespeed insights scores
 
